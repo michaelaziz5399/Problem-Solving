@@ -13,6 +13,9 @@ namespace Easy
     {
         static void Main(string[] args)
         {
+
+            int[] nums = { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 };
+            Console.WriteLine(Remove_Duplicates_from_Sorted_Array.RemoveDuplicates(nums));
         }
         public int[] TwoSum(int[] nums, int target)
         {
